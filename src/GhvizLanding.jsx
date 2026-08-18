@@ -313,13 +313,13 @@ export default function GhvizLanding() {
         </section>
 
         {/* ============ STAT BAR ============ */}
-        {/* <div className="ghviz-mono flex flex-wrap justify-center gap-x-7 gap-y-2 py-7 text-sm text-slate-500 border-y border-slate-800/60">
+        <div className="ghviz-mono flex flex-wrap justify-center gap-x-7 gap-y-2 py-7 text-sm text-slate-500 border-y border-slate-800/60">
           <span><strong className="text-slate-300 font-semibold">MIT</strong> License</span>
           <span>macOS · Linux · Windows</span>
           <span>Python <strong className="text-slate-300 font-semibold">3.9+</strong></span>
-          <span>remote + local modes</span>
-          <span><strong className="text-slate-300 font-semibold">v0.1.0</strong></span>
-        </div> */}
+          {/* <span>remote + local modes</span>
+          <span><strong className="text-slate-300 font-semibold">v0.1.0</strong></span> */}
+        </div>
 
         {/* ============ WHAT IS ============ */}
         <section className="max-w-6xl mx-auto px-6 py-20">
@@ -431,7 +431,7 @@ export default function GhvizLanding() {
         <div className="max-w-6xl mx-auto px-6 flex flex-wrap items-center justify-between gap-4 text-sm text-slate-500">
           <div>
             ghviz · MIT License · by{" "}
-            <a href="https://github.com/pransh1" className="text-slate-400 hover:text-slate-200 transition-colors">PRANSH MAURYA</a>
+            <a href="https://github.com/pransh1" className="text-slate-400 hover:text-slate-200 transition-colors">pransh1</a>
           </div>
           <div className="flex gap-5 flex-wrap">
             <a href="https://github.com/pransh1/ghviz" target="_blank" rel="noopener noreferrer" className="hover:text-slate-300 transition-colors">GitHub</a>
